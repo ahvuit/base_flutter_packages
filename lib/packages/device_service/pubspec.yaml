@@ -1,0 +1,16 @@
+name: device_service
+description: device service package
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  connectivity_plus: ^2.1.0
+  device_info_plus: ^8.1.0
+
+dev_dependencies:
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^4.0.0
